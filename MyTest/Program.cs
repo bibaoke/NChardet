@@ -16,9 +16,9 @@ namespace MyTest
 
             byte[] data2 = html.ToByteArray(MyEncoding.GB2312);
 
-            Console.WriteLine(data1.Detect());
+            Console.WriteLine(data1.GetString());
 
-            Console.WriteLine(data2.Detect());
+            Console.WriteLine(data2.GetString());
 
             Console.ReadLine();
         }

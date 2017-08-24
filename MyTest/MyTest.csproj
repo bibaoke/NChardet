@@ -47,15 +47,15 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\NChardet.csproj">
-      <Project>{278382c0-c787-442e-80f2-1cea2c01cd31}</Project>
-      <Name>NChardet</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="bolishijing.com.html">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NChardet\NChardet.csproj">
+      <Project>{278382c0-c787-442e-80f2-1cea2c01cd31}</Project>
+      <Name>NChardet</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
