@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>Mozilla, JChardet, thinksea, Shao Zhuang</authors>
+    <!--<owners>$author$</owners>-->
+    <licenseUrl>https://github.com/bibaoke/NChardet/blob/master/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/bibaoke/NChardet</projectUrl>
+    <!--<iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>-->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>NChardet</releaseNotes>
+    <copyright>Copyright 2016, Mozilla</copyright>
+    <tags>charset-encoding-detection</tags>
+  </metadata>
+</package>

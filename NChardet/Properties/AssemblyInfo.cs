@@ -9,7 +9,7 @@ using System.Runtime.InteropServices;
 // you compile.
 
 [assembly: AssemblyTitle("NChardet")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("NChardet 是 Mozilla 自动字符编码识别程序库 Chardet 的 .NET 实现")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("NChardet")]
