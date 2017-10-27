@@ -5,6 +5,9 @@ using System;
 
 namespace NChardet
 {
+    /// <summary>
+    /// byte 的扩展方法
+    /// </summary>
     public static class ByteExtensions
     {
         /// <summary>
@@ -19,6 +22,7 @@ namespace NChardet
         /// - 并且 - 
         /// System.Text.Encoding.DecoderFallback 被设置为 System.Text.DecoderExceptionFallback
         /// </exception>
+        /// <exception cref="DetectingException">检测失败</exception>
         public static string GetString(this byte[] byteArray)
         {
             return byteArray.GetEncoding().GetString(byteArray);
@@ -31,6 +35,7 @@ namespace NChardet
         /// <returns></returns>
         /// <exception cref="NullReferenceException">字节数组不能为 null</exception>
         /// <exception cref="ArgumentException">不支持的编码</exception>
+        /// <exception cref="DetectingException">检测失败</exception>
         public static Encoding GetEncoding(this byte[] byteArray)
         {
             MyCharsetDetectionObserver cdo = new MyCharsetDetectionObserver();
