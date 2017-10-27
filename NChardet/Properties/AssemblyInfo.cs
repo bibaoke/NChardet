@@ -29,4 +29,4 @@ using System.Runtime.InteropServices;
 // numbers with the '*' character (the default):
 
 [assembly: AssemblyVersion("1.0.1.*")]
-[assembly: AssemblyFileVersion("1.0.1.5")]
+[assembly: AssemblyFileVersion("1.0.1.6")]
